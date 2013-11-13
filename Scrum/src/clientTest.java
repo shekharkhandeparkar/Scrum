@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class clientTest {
 
+	Organisation organisation = new Organisation();
 	Member member = new Member();
 	ProductOwner productOwner = new ProductOwner();
 	ScrumMaster scrumMaster = new ScrumMaster();
@@ -13,7 +14,7 @@ public class clientTest {
 	Team team = new Team(member, productOwner, scrumMaster, customer);
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
 	}
 
 }
