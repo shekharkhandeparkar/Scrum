@@ -13,4 +13,8 @@ public class Team {
 		this.customer=customer;
 	}
 
+	public Team() {
+		// TODO Auto-generated constructor stub
+	}
+
 }

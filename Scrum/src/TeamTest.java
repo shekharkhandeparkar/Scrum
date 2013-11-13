@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class TeamTest {
 
+	Team team = new Team();
 	@Before
 	public void setUp() throws Exception {
 	}
